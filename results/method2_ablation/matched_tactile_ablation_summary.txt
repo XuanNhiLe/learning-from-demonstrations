@@ -1,0 +1,57 @@
+MATCHED TACTILE-INPUT SENSITIVITY ANALYSIS
+===========================================
+
+Number of observations:
+50
+
+Median target / replacement tactile ratio:
+3.307x
+
+Gripper prediction sensitivity
+------------------------------
+Mean absolute change:
+1.4748 SO101 units
+
+Median absolute change:
+1.3022 SO101 units
+
+90th percentile:
+2.9928 SO101 units
+
+Maximum:
+3.7931 SO101 units
+
+Direction
+---------
+Real tactile produced less closure / more open:
+8/50
+
+Real tactile produced more closure:
+42/50
+
+Essentially unchanged:
+0/50
+
+Mean signed delta (normal - matched-low):
+-1.3337 SO101 units
+
+Correlation between tactile contrast and
+absolute gripper prediction change:
+r = 0.4269
+
+INTERPRETATION LIMIT
+--------------------
+This is an offline tactile-input sensitivity analysis.
+
+For each target observation, the camera images and exact
+6-D robot state were held fixed. Only the 30 tactile
+channels were replaced using a real low-tactile vector
+selected from the training dataset with a tightly matched
+gripper configuration.
+
+A change in predicted action therefore demonstrates
+sensitivity of the trained ACT policy to the tactile input.
+
+It does NOT by itself demonstrate reduced physical
+deformation, improved grasp safety, or superior closed-loop
+robot performance.

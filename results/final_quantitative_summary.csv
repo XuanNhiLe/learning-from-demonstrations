@@ -1,0 +1,8 @@
+metric,value
+eflesh_current_correlation_r,0.8439330851744656
+baseline_peak_post_contact_current,24.0
+limited_peak_post_contact_current,16.0
+baseline_minimum_gripper_position,4.51693851944793
+limited_minimum_gripper_position,5.520702634880803
+limited_contact_position,7.277289836888332
+limited_max_post_contact_closure,1.7565872020075286

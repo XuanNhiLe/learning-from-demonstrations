@@ -1,0 +1,81 @@
+EXPANDED RESULTS FIGURES
+======================================
+
+METHOD 1
+--------
+Detected contact time:
+12.867 s
+
+First 2 s after contact:
+Mean external modification:
+3.422 SO101 units
+
+Maximum external modification:
+5.751 SO101 units
+
+Samples modified:
+100.0%
+
+Peak post-interaction current without limiter:
+24 raw
+
+Peak post-interaction current with limiter:
+16 raw
+
+Peak-current reduction:
+33.3%
+
+
+METHOD 2
+--------
+Signal-based high-tactile onset:
+12.156 s
+
+Peak tactile response time:
+13.841 s
+
+End of dominant high-tactile interval:
+19.140 s
+
+Peak combined eFlesh:
+26223.71
+
+50% peak threshold:
+13111.85
+
+First 2 s after high-tactile onset:
+Mean external modification:
+0.000 SO101 units
+
+Maximum external modification:
+0.000 SO101 units
+
+Samples modified:
+0.0%
+
+Motor-side tactile response mean share:
+53.3%
+
+Motor-side tactile response range:
+49.4% to 57.5%
+
+
+IMPORTANT INTERPRETATION
+------------------------
+Method 1 uses an external safety layer that modifies
+the ACT gripper request after detected contact.
+
+Method 2 places the eFlesh tactile measurements inside
+the ACT observation. During the first 2 seconds of the
+dominant high-tactile interval of this successful trial,
+the policy-requested gripper command and sent gripper
+command were identical.
+
+The bilateral tactile-response percentages describe
+sensor-response distribution only. They are not
+calibrated force ratios.
+
+The two methods used different physical gripper
+configurations. Absolute gripper positions and raw
+eFlesh magnitudes should therefore not be treated as
+directly equivalent physical quantities.
