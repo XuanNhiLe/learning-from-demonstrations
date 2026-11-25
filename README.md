@@ -32,22 +32,9 @@ Two RGB cameras (640 × 480 at 30 fps), a leader–follower SO-101 setup, and tw
 | Runtime control | External gripper position cap and current-triggered relief | Learned policy, no Method 1-style tactile override |
 | Training | 50 demonstrations, 50,000 steps | 50 demonstrations, 50,000 steps |
 
-```mermaid
-flowchart LR
-  A[RGB + joint state] --> B[ACT]
-  B --> C[Gripper limiter]
-  D[eFlesh calibration] --> C
-  E[Position + current feedback] --> C
-  C --> F[SO-101]
-```
+![Method 1: calibration-based gripper limiting](figures/pipelines/method1.svg)
 
-```mermaid
-flowchart LR
-  A[RGB + joint state] --> C[ACT]
-  B[30 tactile channels] --> C
-  C --> D[SO-101]
-  D --> B
-```
+![Method 2: direct tactile integration](figures/pipelines/method2.svg)
 
 ## Method 1 — Calibration-based gripper safety limiting
 
