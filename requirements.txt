@@ -1,0 +1,4 @@
+# Offline plotting and trial-level analysis only; see docs/reproduction.md for ACT inference.
+numpy
+pandas
+matplotlib
