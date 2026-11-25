@@ -9,6 +9,12 @@ Can a robot learn to grasp a deformable object while using tactile information t
 
 <p align="center"><img src="figures/so101_eflesh_setup.jpg" alt="SO-101 robot and eFlesh-equipped gripper" width="65%"></p>
 
+## Robot demonstration
+
+[![Watch the SO-101 robot demonstration on YouTube](https://img.youtube.com/vi/IOX4_Yiw77Q/hqdefault.jpg)](https://youtube.com/shorts/IOX4_Yiw77Q)
+
+[Watch the demonstration (YouTube Shorts)](https://youtube.com/shorts/IOX4_Yiw77Q)
+
 ## Key results
 
 | Experiment | Main finding |
