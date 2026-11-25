@@ -111,6 +111,7 @@ The plotting and summary scripts use the committed analysis data. Full offline i
 
 | Path | Contents |
 | --- | --- |
+| [hardware/](hardware/) | Custom eFlesh gripper holders and CAD documentation |
 | [data/](data/) | Calibration, rollouts and offline-ablation observations |
 | [figures/](figures/) | Experimental plots and hardware photograph |
 | [results/](results/) | Summary tables and trial-level metrics |
