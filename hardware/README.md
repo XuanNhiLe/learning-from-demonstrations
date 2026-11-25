@@ -1,6 +1,6 @@
 # Custom eFlesh gripper holders
 
-The SO-101 gripper was adapted to mount an eFlesh tactile sensing surface on each opposing finger. The modified parts follow the original SO-101 naming convention: **moving jaw** and **wrist roll follower**.
+The SO-101 gripper was adapted to mount an eFlesh tactile sensing surface on each opposing finger.
 
 <p align="center"><img src="../figures/so101_eflesh_setup.jpg" alt="SO-101 with eFlesh-equipped gripper" width="65%"></p>
 
@@ -13,10 +13,9 @@ Both modified gripper parts are provided in STL format for 3D printing.
 | [moving_jaw_eflesh_holder.STL](moving_jaw_eflesh_holder.STL) | Moving jaw with an eFlesh mounting slot |
 | [wrist_roll_follower_eflesh_holder.STL](wrist_roll_follower_eflesh_holder.STL) | Wrist roll follower with an eFlesh mounting slot |
 
-Click either file to preview its geometry directly on GitHub or download it for slicing. Editable SolidWorks and STEP files are not included.
+Click either file to preview its geometry directly on GitHub or download it for slicing.
 
 ## Printing and assembly
 
 The STL files represent the modified gripper components, not the compliant eFlesh sensing lattices. See the [eFlesh paper](https://arxiv.org/abs/2506.09994) for the sensing principle and original lattice design.
 
-Printing settings and assembly tolerances are not documented. Verify the scale, fit and clearance before operating the robot. Licensing of the modified parts has not yet been specified.
